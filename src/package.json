@@ -1,0 +1,26 @@
+{
+  "name": "oudon",
+  "version": "1.0.0",
+  "description": "oudon",
+  "main": "main.js",
+  "scripts": {
+    "lint" : "eslint main.js",
+    "start": "node main.js",
+    "test": "npm run lint"
+  },
+  "author": "noriokun4649",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "config": "^3.3.6",
+    "discord.js": "^12.5.3",
+    "discord.js-buttons": "^1.0.0",
+    "ffmpeg-static": "^4.3.0",
+    "fs": "^0.0.1-security",
+    "opusscript": "^0.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}
