@@ -30,7 +30,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Verify can build Docker image
-      run: docker build
+      run: docker build .
 
   build_and_push:
     runs-on: ubuntu-latest
