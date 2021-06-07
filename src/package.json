@@ -4,12 +4,12 @@
   "description": "Can play SE in Discord VC",
   "main": "main.js",
   "scripts": {
-    "lint" : "eslint main.js",
+    "lint": "eslint main.js",
     "start": "node main.js",
     "test": "npm run lint"
   },
   "engines": {
-    "node": ">=15.00.0"
+    "node": ">=15.x"
   },
   "author": "noriokun4649",
   "license": "MIT",
